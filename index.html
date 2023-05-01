@@ -1,70 +1,30 @@
 <!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en" prefix="og: http://ogp.me/ns#" class="ws-ready">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
+    <!-- Google Fonts
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i%7CArvo:100,100i,300,300i,400,400i,700,700i%7CRoboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    -->
     <!-- SEO -->
-    <title>WebSlides: Making HTML presentations easy</title>
-    <meta name="description" content="WebSlides is the easiest way to make HTML presentations, portfolios, and landings. Just essential features.">
+    <title>Illustrated Indus </title>
+    <!--<meta name="description" content="">-->
 
-    <!-- URL CANONICAL -->
-    <!-- <link rel="canonical" href="http://your-url.com/"> -->
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
-
-    <!-- CSS WebSlides -->
-    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+    <!-- CSS Base -->
+    <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/webslides.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://epdriven.com/p2.css">
+    <style>[class=docTitle], .footnote, strong, b, em, i, h1, h2, h3, h4, h5, h6, .box-wrapper { font-family: "Arvo" !important; font-style: normal; font-weight: normal;}.caption, p, p strong, p em, ul>li .footnote, ul>li p, ul>li strong, ul>li b, ul>li em, ul>li i, ol>li .footnote,ol>li p,ol>li strong,ol>li b,ol>li em,ol>li i,table .footnote,table p,table strong,table b,table em,table i {    font-family: "Lato" !important;    font-weight: normal;    font-style: normal;}.ep_banner .main_title,.ep_banner .teaser,.ep_banner .sub_title,.ep_banner .sub_title_description,.ep_banner .author,.ep_banner .author_lable,.ep_banner .publisher {    display: block !important;    font-family: "Arvo" !important;    font-weight: normal;    font-style: normal;    z-index: 9;}.ep_banner .main_title {    position: absolute;    width: 85%;    top: 40%;    bottom: 40%;    left: 0;    right: 0;    text-align: center;    margin: 0 auto;    font-weight: bold !important;    font-size: 36px !important;}.ep_banner .teaser {    color: #fff !important;    position: absolute;    width: 40%;    top: 55%;    left: 0;    right: 0;    margin: 0 auto;    text-align: center;}.ep_banner .sub_title_description,.ep_banner .teaser,.ep_banner .author_lable {    text-align: center !important;}.ep_banner .sub_title,.ep_banner .author {    display: block !important;    position: relative;    font-weight: bold;    text-align: center;    height: auto;    width: 85%;    left: 0;    right: 0;    margin: 0 auto;    font-size: 30px;    z-index: 9;}.ep_banner .sub_title,.ep_banner .sub_title_description {    position: relative;    top: -50px;}.ep_banner .author,.ep_banner .author_lable {    position: relative;    top: -20px;}.ep_banner .author_lable {}.ep_banner .publisher {}p {    font-size: 14px;    color: #2D2D2D;}strong,b {    font-weight: bold !important;}em,i {    font-style: italic !important;}strong em,em strong {    font-weight: bold !important;    font-style: italic !important;}h1,h2,h3,h4,h5,h6 {    color: #151515;    font-size: 20px;}.caption,ul,ul>li,ol,ol>li,table {    font-size: 12px;}.box-wrapper {    padding: 10px;    font-size: 20px;    font-weight: bold;    border: 1px dashed #D0D0D0 !important;}.box-wrapper::before {    content: "";    height: 0px !important;}.box-wrapper,h1,h2,h3,h4,h5,h6 {    overflow: auto !important;}h4,h5 {    margin-bottom: 0;}.table tr:not(:first-child) th {    text-align: left;} .ws-ready h1 {     color: #FFF !important; } .ws-ready .text-cols p:first-child:first-letter { float: inherit; font-size: inherit; font-weight: inherit; line-height: inherit; margin: inherit; padding: inherit; text-transform: inherit; }</style>
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
-    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
-
-    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
-
-    <!-- FACEBOOK -->
-    <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
-    <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
-    <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
-    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
-
-    <!-- TWITTER -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
-    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
-    <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
-    <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
-    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
-
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
-    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
-    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
-    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
-    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
-    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
-    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
-
-    <!-- Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#333333">
-    <style>
-      td:hover, tr:nth-child(even) > td:hover {
-        background-color: unset;
-      }
-      tr:nth-child(even) > td {
-        background-color: unset;
-      }
-    </style>
-  </head>
+    <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/webslides@1.5.0/static/css/svg-icons.css">
+   <style type="text/css">body.baseline {
+                     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAgMAAACdGdVrAAAACVBMVEUAAAAtXsUtXcPDDPUWAAAAA3RSTlMAZmHzZFkxAAAAFklEQVQI12MAA9bBR3ExhAJB1iooBQBGwgVEs/QtuAAAAABJRU5ErkJggg==) left top .8rem/.8rem;
+                   }</style></head>
   <body >
     <header role="banner" id="app">
       <nav role="navigation">
-        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+        <p class="logo"><a href="https://enterpub.com" title="QuillBill">Enterpub</a></p>
         <p id="breadCrumb_anchor">
           <a href="#slide=1" style="margin: 5em 1em 5em 1em;">Home</a>
           <!-- <span onclick="clickFunctionHome()">></span> -->
@@ -80,7 +40,7 @@
         <div  id="list-breadcrumb-roller-inside" style="max-height: 20vh;overflow-y: scroll;">
           <!-- Insert my list here -->
         </div>
-        <ul>
+        <!-- <ul>
           <li class="github">
             <a rel="external" href="https://github.com/webslides/webslides" title="Github">
               <svg class="fa-github">
@@ -97,10 +57,9 @@
               <em>@WebSlides</em>
             </a>
           </li>
-          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
-        </ul>
+
+        </ul> -->
       </nav>
-      {{ msg }}
     </header>
 
     <main role="main">
