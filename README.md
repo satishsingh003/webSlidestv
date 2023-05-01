@@ -18,6 +18,9 @@ webslides/
 └── images/
 ```
 
+## How to run?
+- Clone the Repo and run the index.html in your browser
+
 ## Features
 
 - Navigation (horizontal and vertical sliding): remote presenters, touchpad, keyboard shortcuts, and swipe.
