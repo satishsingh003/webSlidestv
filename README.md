@@ -51,7 +51,7 @@ webslides/
 <article id="webslides" class="vertical">
 ```
 
-
+for more details please check https://webslides.tv/
 
 
 
