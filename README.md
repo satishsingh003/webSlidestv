@@ -6,7 +6,7 @@
 
 
 ```
-webslides/
+webslidestv/
 ├── index.html
 ├── css/
 │   ├── base.css
